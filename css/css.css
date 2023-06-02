@@ -1,0 +1,228 @@
+:root{
+    --color_identidade:#6F3F75;
+    --color_fundo:#c6bec7a2;
+    --color-logo:#cc0707;
+    --color-hover:#f03d3d;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*ESTILIZAÇÃO MENU*/
+header{
+    background-color: var(--color_fundo);
+    padding: 1%;
+    max-height: 7vh;
+}
+
+.header_top{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+}
+
+header
+nav
+.header_top
+h1{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Rowdies', cursive;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+    header
+    nav
+    .header_top
+    h1
+    #h1letra1{
+        color: var(--color-logo);
+    }
+    header
+    nav
+    .header_top
+    h1
+    #h1letra2{
+        color: var(--color-logo);
+    }
+
+
+
+header
+nav
+.header_top
+ul{
+    display: flex;
+}
+
+header
+nav
+.header_top
+ul li{
+    font-family: 'Geologica', sans-serif;
+    font-weight: 300;
+    margin-right: 20px;
+    list-style: none;
+    font-size: .9rem;
+    cursor: pointer;
+    position: relative;
+}
+header
+nav
+.header_top
+ul li::before{
+   content: "";
+   position: absolute;
+   inset: 0;
+   z-index: 1;
+   top: 23px;
+   display: block;
+   border-bottom: 2px solid red;
+   transition: 0.7s ease-in-out;
+   transform-origin: left;
+   transform: scale(0);
+}
+header
+nav
+.header_top
+ul li:hover::before{
+    transform: scale(1);
+}
+
+header
+nav
+.header_top
+button{
+    border: none;
+    border-radius: 30px;
+    width: 140px;
+    height: 32px;
+    background-color: var(--color-logo);
+    font-family: 'Geologica', sans-serif;
+    font-weight: 300;
+    color: #e2e0e0d7;
+    cursor: pointer;
+    transition: 0.5s;
+}
+header
+nav
+.header_top
+button:hover{
+    background-color: var(--color-hover);
+}
+
+
+
+/*Estilização Section-01(Abaixo do Header)*/
+
+
+
+main
+.section_apresentação_1{
+    min-height: 88vh;
+    display: flex;
+    justify-content: space-around;
+    color: #e2e0e0d7;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg, #000000f3, #000000f5), url(../img/menu/back_header.jpg);
+}
+
+
+
+/*LADO ESQUERDO(ONDE CONTÉM TEXTO E BUTÕES)*/
+main
+.section_apresentação_1
+.inter_section_apresentação_1{
+    max-width: 360px;
+    height: 300px;
+    margin-right: 100px;
+}
+
+main
+.section_apresentação_1
+.inter_section_apresentação_1 h1{
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Rowdies', cursive;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: var(--color-logo);
+    margin-bottom: 10px;
+}
+main
+.section_apresentação_1
+.inter_section_apresentação_1 p{
+    font-size: 1rem;
+    text-align-last:justify;
+    font-family: 'Geologica', sans-serif;
+    margin-bottom: 20px;
+}
+
+main
+.section_apresentação_1
+.inter_section_apresentação_1
+.inter_section1_btns
+.inter_btns1{
+    border: none;
+    border-radius: 30px;
+    width: 140px;
+    height: 35px;
+    background-color: var(--color-logo);
+    font-family: 'Geologica', sans-serif;
+    font-weight: 300;
+    color: #e2e0e0d7;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+main
+.section_apresentação_1
+.inter_section_apresentação_1
+.inter_section1_btns
+.inter_btns1:hover{
+    background-color: var(--color-hover);
+}
+main
+.section_apresentação_1
+.inter_section_apresentação_1
+.inter_section1_btns
+.inter_btns2{
+    border: none;
+    border-radius: 30px;
+    width: 140px;
+    height: 35px;
+    background-color: var(--color-logo);
+    font-family: 'Geologica', sans-serif;
+    font-weight: 300;
+    color: #e2e0e0d7;
+    cursor: pointer;
+    transition: 0.5s;
+}
+main
+.section_apresentação_1
+.inter_section_apresentação_1
+.inter_section1_btns
+.inter_btns2:hover{
+    background-color: var(--color-hover);
+}
+
+/*LADO DIREITO(ONDE CONTÉM IMG)*/
+
+.inter_section_apresentação_2{
+    width: 360px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inter_section_apresentação_2
+.img_delicias{
+    width: 100%;
+}
+
+
+
