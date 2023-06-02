@@ -14,7 +14,7 @@
 header{
     background-color: var(--color_fundo);
     padding: 1%;
-    max-height: 7vh;
+    max-height: 10vh;
 }
 
 .header_top{
@@ -80,7 +80,7 @@ ul li::before{
    top: 23px;
    display: block;
    border-bottom: 2px solid red;
-   transition: 0.7s ease-in-out;
+   transition: 0.5s ease-in-out;
    transform-origin: left;
    transform: scale(0);
 }
@@ -105,6 +105,7 @@ button{
     color: #e2e0e0d7;
     cursor: pointer;
     transition: 0.5s;
+    font-size: 90%;
 }
 header
 nav
@@ -177,6 +178,7 @@ main
     cursor: pointer;
     margin-right: 30px;
     transition: 0.5s;
+    font-size: 90%;
 }
 main
 .section_apresentação_1
@@ -200,6 +202,7 @@ main
     color: #e2e0e0d7;
     cursor: pointer;
     transition: 0.5s;
+    font-size: 90%;
 }
 main
 .section_apresentação_1
@@ -213,7 +216,7 @@ main
 
 .inter_section_apresentação_2{
     width: 360px;
-    height: 400px;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -224,5 +227,72 @@ main
     width: 100%;
 }
 
+/*Estilização sessão 2*/
+
+.section_apresentação_2{
+    text-align: center;
+    background-color: darkgray;
+    padding: 20px;
+}
+.section_apresentação_2 p{
+    font-family: 'Geologica', sans-serif ;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.section_apresentação_2 h1{
+    font-family: 'Geologica', sans-serif ;
+    font-size: 1.2rem;
+}
 
 
+
+.conteiner_inter_section2{
+    display: flex;
+}
+.section_apresentação_2
+.inter_section2_img{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 562px;
+width: 70%;
+}
+.section_apresentação_2
+.inter_section2_img img{
+    width: 90%;
+}
+
+.section_apresentação_2
+.inter_section2_text_img{
+    padding: 40px;
+    height: 400px;
+    width: 30%;
+}
+.section_apresentação_2
+.inter_section2_text_img p{
+    font-family: 'Geologica', sans-serif ;
+    font-size: 110%;
+    margin-bottom: 30px;
+}
+
+.conteiner_inter_section2
+.inter_section2_text_img
+.ul_li_interno li{
+    font-size: .8rem;
+    list-style: none;
+    text-align-last: left;
+    margin-bottom: 15px;
+}
+.conteiner_inter_section2
+.inter_section2_text_img
+.ul_li_interno li
+.material-symbols-outlined{
+    color: black;
+    font-size: 15px;
+    padding-right: 5px;
+}
+.conteiner_inter_section2
+.inter_section2_text_img img{
+    width: 100%;
+
+}
