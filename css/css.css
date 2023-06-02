@@ -14,6 +14,7 @@ header{
     background-color: var(--color_fundo);
     padding: 1%;
     max-height: 10vh;
+    
 }
 
 .header_top{
@@ -21,6 +22,7 @@ header{
     justify-content: space-evenly;
     padding: 10px;
     align-items: center;
+    animation: ani_header_top 2s 1 ease-in-out;
 }
 
 header
@@ -37,7 +39,10 @@ h1{
     .header_top
     h1
     #h1letra1{
+        font-size: 1.6rem;
         color: var(--color-logo);
+        transition: 1s;
+        animation: ani_logo 3s infinite ease-in-out alternate-reverse;
     }
     header
     nav
@@ -79,7 +84,7 @@ ul li::before{
    top: 23px;
    display: block;
    border-bottom: 2px solid red;
-   transition: 0.5s ease-in-out;
+   transition: 0.3s ease-in-out;
    transform-origin: left;
    transform: scale(0);
 }
@@ -152,6 +157,7 @@ main
     font-weight: 900;
     color: var(--color-logo);
     margin-bottom: 10px;
+    animation: ani_conteudo_downheader 1.3s 1 ease-in-out;
 }
 main
 .section_apresentação_1
@@ -160,6 +166,7 @@ main
     text-align-last:justify;
     font-family: 'Geologica', sans-serif;
     margin-bottom: 20px;
+    animation: ani_conteudo_downheader 1.5s 1 ease-in-out;
 }
 
 main
@@ -179,6 +186,7 @@ main
     margin-right: 30px;
     transition: 0.5s;
     font-size: 90%;
+    animation: ani_conteudo_downheader 1.3s 1 ease-in-out;
 }
 main
 .section_apresentação_1
@@ -204,6 +212,7 @@ main
     cursor: pointer;
     transition: 0.5s;
     font-size: 90%;
+    animation: ani_conteudo_downheader 3s 1 ease-in-out;
 }
 main
 .section_apresentação_1
@@ -227,6 +236,7 @@ main
 .inter_section_apresentação_2
 .img_delicias{
     width: 100%;
+    animation: ani_img_comida_top 8s infinite alternate ease-in-out;
 }
 
 /*Estilização sessão 2*/
@@ -236,15 +246,15 @@ main
     background-color: darkgray;
     padding: 20px;
 }
-.section_apresentação_2 p{
-    font-family: 'Geologica', sans-serif ;
-    font-size: 1rem;
-    margin-bottom: 10px;
-}
+
+/*Estilização Saiba mais*/
 .section_apresentação_2 h1{
-    font-family: 'Geologica', sans-serif ;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Rowdies', cursive;
     font-size: 1.2rem;
     text-transform: uppercase;
+    margin-top: 2%;
+    margin-bottom: 3%;
 }
 .section_apresentação_2 h1 span{
    color: var(--color-logo);
@@ -262,13 +272,29 @@ justify-content: center;
 align-items: center;
 height: 562px;
 width: 70%;
+position: relative;
 }
 .section_apresentação_2
 .inter_section2_img img{
     width: 90%;
     position:relative;
 }
-
+.section_apresentação_2
+.inter_section2_img
+.agendar{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 80%;
+    background-color:rgba(169, 169, 169, 0.747);
+    color: #000000;
+    width: 400px;
+    height: 60px;
+    font-size: 1.3rem;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Rowdies', cursive;
+}
 .section_apresentação_2
 .inter_section2_text_img{
     padding: 40px;
@@ -300,6 +326,44 @@ width: 70%;
 }
 .conteiner_inter_section2
 .inter_section2_text_img img{
-    width: 100%;
+    margin-top: 50px;
+    max-width: 90%;
 
+}
+/*ANIMAÇÃO CONTEUDO HEADER LEFT TO REIGTH */
+@keyframes ani_header_top {
+    0%{
+        transform: translateX(-1100px);
+    }
+    100%{
+       
+    }
+}
+
+/*ANIMAÇÃO CONTEUDO DOWN HEADER LEFT TO REIGTH */
+@keyframes ani_conteudo_downheader {
+    0%{
+        transform: translateX(-650px);
+    }
+    100%{
+       
+    }
+}
+/*ANIMAÇÃO SIMPLES DO ' DA LOGO */
+@keyframes ani_logo {
+    0%{
+       color: #cc0707;
+    }
+    100%{
+        color: #000000; 
+    }
+}
+/*ANIMAÇÃO SIMPLES DA IMG COMIDA NO INICIO*/
+@keyframes ani_img_comida_top {
+    0%{
+        transform: scale(.9);
+    }
+    100%{
+        transform: scale(.8);
+    }
 }
