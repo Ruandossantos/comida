@@ -334,6 +334,7 @@ position: relative;
 @keyframes ani_header_top {
     0%{
         transform: translateX(-1100px);
+        opacity: -1;
     }
     100%{
        
@@ -343,10 +344,11 @@ position: relative;
 /*ANIMAÇÃO CONTEUDO DOWN HEADER LEFT TO REIGTH */
 @keyframes ani_conteudo_downheader {
     0%{
-        transform: translateX(-650px);
+        transform: translateX(-600px);
+        opacity: -1;
     }
     100%{
-       
+        opacity: 1;
     }
 }
 /*ANIMAÇÃO SIMPLES DO ' DA LOGO */
