@@ -42,7 +42,7 @@ h1{
         font-size: 1.6rem;
         color: var(--color-logo);
         transition: 1s;
-        animation: ani_logo 3s infinite ease-in-out alternate-reverse;
+        animation: ani_logo 2s infinite ease-in-out alternate-reverse;
     }
     header
     nav
@@ -83,7 +83,7 @@ ul li::before{
    z-index: 1;
    top: 23px;
    display: block;
-   border-bottom: 2px solid red;
+   border-bottom: 2px solid var(--color-logo);
    transition: 0.3s ease-in-out;
    transform-origin: left;
    transform: scale(0);
@@ -157,7 +157,7 @@ main
     font-weight: 900;
     color: var(--color-logo);
     margin-bottom: 10px;
-    animation: ani_conteudo_downheader 1.3s 1 ease-in-out;
+    animation: ani_conteudo_downheader 2s 1 ease-in-out;
 }
 main
 .section_apresentação_1
@@ -166,7 +166,7 @@ main
     text-align-last:justify;
     font-family: 'Geologica', sans-serif;
     margin-bottom: 20px;
-    animation: ani_conteudo_downheader 1.5s 1 ease-in-out;
+    animation: ani_conteudo_downheader 2s 1 ease-in-out;
 }
 
 main
@@ -186,7 +186,7 @@ main
     margin-right: 30px;
     transition: 0.5s;
     font-size: 90%;
-    animation: ani_conteudo_downheader 1.3s 1 ease-in-out;
+    animation: ani_conteudo_downheader 2s 1 ease-in-out;
 }
 main
 .section_apresentação_1
@@ -212,7 +212,7 @@ main
     cursor: pointer;
     transition: 0.5s;
     font-size: 90%;
-    animation: ani_conteudo_downheader 3s 1 ease-in-out;
+    animation: ani_conteudo_downheader 2s 1 ease-in-out;
 }
 main
 .section_apresentação_1
@@ -236,7 +236,7 @@ main
 .inter_section_apresentação_2
 .img_delicias{
     width: 100%;
-    animation: ani_img_comida_top 8s infinite alternate ease-in-out;
+    animation: ani_img_comida_top 2s infinite alternate ease-in-out;
 }
 
 /*Estilização sessão 2*/
