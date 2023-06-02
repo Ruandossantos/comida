@@ -1,5 +1,4 @@
 :root{
-    --color_identidade:#6F3F75;
     --color_fundo:#c6bec7a2;
     --color-logo:#cc0707;
     --color-hover:#f03d3d;
@@ -111,6 +110,7 @@ header
 nav
 .header_top
 button:hover{
+    transform: scale(1.1);
     background-color: var(--color-hover);
 }
 
@@ -186,6 +186,7 @@ main
 .inter_section1_btns
 .inter_btns1:hover{
     background-color: var(--color-hover);
+    transform: scale(1.1);
 }
 main
 .section_apresentação_1
@@ -210,6 +211,7 @@ main
 .inter_section1_btns
 .inter_btns2:hover{
     background-color: var(--color-hover);
+    transform: scale(1.1);
 }
 
 /*LADO DIREITO(ONDE CONTÉM IMG)*/
