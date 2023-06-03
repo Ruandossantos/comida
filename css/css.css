@@ -294,56 +294,6 @@ position: relative;
     font-family: 'Playfair Display', serif;
     font-family: 'Rowdies', cursive;
 }
-.section_apresentação_2
-.inter_section2_img
-.estili_img{
-    width: 10px;
-    height: 300px;
-    background-color:#000;
-    position: absolute;
-    top: 5%;
-    left: 94%;
-}
-.section_apresentação_2
-.inter_section2_img
-.estili_img2{
-    width: 300px;
-    height: 10px;
-    background-color:#000;
-    position: absolute;
-    top: 5%;
-    left: 59%;
-}
-.section_apresentação_2
-.inter_section2_img
-.estili_img2{
-    width: 300px;
-    height: 10px;
-    background-color:#000;
-    position: absolute;
-    top: 5%;
-    left: 59%;
-}
-.section_apresentação_2
-.inter_section2_img
-.estili_img3{
-    width: 300px;
-    height: 10px;
-    background-color:#000;
-    position: absolute;
-    top:93%;
-    right: 59%;
-}
-.section_apresentação_2
-.inter_section2_img
-.estili_img4{
-    width: 10px;
-    height: 300px;
-    background-color:#000;
-    position: absolute;
-    top: 41%;
-    right: 94%;
-}
 
 .section_apresentação_2
 .inter_section2_text_img{
@@ -353,7 +303,7 @@ position: relative;
 }
 .section_apresentação_2
 .inter_section2_text_img p{
-    font-family: 'Geologica', sans-serif ;
+    font-family:'Geologica', sans-serif;
     font-size: 110%;
     margin-bottom: 30px;
 }
@@ -380,6 +330,166 @@ position: relative;
     max-width: 90%;
 
 }
+
+/*Estilização aba estatistica*/
+.conteiner-estatistica{
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-evenly;
+    height: 640px;
+    position: relative;
+    
+}
+
+
+/*Estilização aba estatistica card 1*/
+.conteiner-estatistica
+.card_estatistica_1{
+    background-color:#686767;
+    height: 250px;
+    width: 200px;
+    padding: 30px;
+    color: #000000;
+}
+.conteiner-estatistica
+.card_estatistica_1 h1{
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Rowdies', cursive;
+}
+.conteiner-estatistica
+.card_estatistica_1 p{
+    font-size: .8rem;
+    margin-bottom: 30px;
+    font-family:'Geologica', sans-serif;
+}
+.conteiner-estatistica
+.card_estatistica_1 button{
+    background-color: var(--color-logo);
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-family: 'Geologica', sans-serif;
+    transition: 0.5s;
+    cursor: pointer;
+    transform: scale(.9);
+}
+.conteiner-estatistica
+.card_estatistica_1 button:hover{
+    transform: scale(1);
+}
+
+
+/*Estilização aba estatistica card 2*/
+.conteiner-estatistica
+.card_estatistica_2{
+    background-color:#686767;
+    height: 250px;
+    width: 180px;
+    padding: 10px;
+}
+.conteiner-estatistica
+.card_estatistica_2 span{
+    font-size: 2rem;
+    margin-left: 45%;
+    margin-bottom: 20px;
+ 
+}
+.conteiner-estatistica
+.card_estatistica_2 h1{
+    font-size: .8rem;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Rowdies', cursive;
+}
+.conteiner-estatistica
+.card_estatistica_2 p{
+    font-size: .7rem;;
+    font-family:'Geologica', sans-serif;
+}
+
+
+
+/*Estilização aba estatistica card 3*/
+.conteiner-estatistica
+.card_estatistica_3{
+    background-color:#686767;
+    height: 250px;
+    width: 180px;
+    padding: 10px;
+}
+.conteiner-estatistica
+.card_estatistica_3 span{
+    font-size: 2rem;
+    margin-left: 45%;
+    margin-bottom: 20px;
+ 
+}
+.conteiner-estatistica
+.card_estatistica_3 h1{
+    font-size: .8rem;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Rowdies', cursive;
+}
+.conteiner-estatistica
+.card_estatistica_3 p{
+    font-size: .7rem;
+    font-family:'Geologica', sans-serif;
+}
+
+
+
+/*Estilização aba estatistica card 4*/
+.conteiner-estatistica
+.card_estatistica_4{
+    background-color:#686767;
+    height: 250px;
+    width: 180px;
+    padding: 10px;
+    position: relative;
+}
+.conteiner-estatistica
+.card_estatistica_4 span{
+    font-size: 2rem;
+    margin-left: 45%;
+    margin-bottom: 20px;
+ 
+}
+.conteiner-estatistica
+.card_estatistica_4 h1{
+    font-size: .8rem;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Rowdies', cursive;
+}
+.conteiner-estatistica
+.card_estatistica_4 p{
+    font-size: .7rem;
+    font-family:'Geologica', sans-serif;
+}
+
+.conteiner-estatistica
+.info_estatisticas{
+    height: 210px;
+    width: 100%;
+    background-color: #cc0707;
+    position: absolute;
+    top: 330px;
+    background-image:linear-gradient(4deg, #000000e7,#000000ec), url(../img/gallery/parallax.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
 
 
 
