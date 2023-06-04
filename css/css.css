@@ -585,14 +585,109 @@ position: relative;
     margin: 0 auto;
     
 }
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+
+.menu_cardapio_comida{
+    text-align: center;
+}
 
 .continer_menu_comidas_valores
 .sub_continer_menu_comidas_valores
-.conteudo_1{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.menu_cardapio_comida
+nav
+ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
 }
-                
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.menu_cardapio_comida
+nav
+ul li{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.sub_cardapio_acima_comida{
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.conteiner_conteudo{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 60px;
+    justify-content: center;
+}         
+
+/*ESTILIZAÇÃO CARDS CARDAPIO MENU*/
+
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.conteiner_conteudo
+.conteudo_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.conteiner_conteudo
+.conteudo_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.conteiner_conteudo
+.conteudo_3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.conteiner_conteudo
+.conteudo_4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.conteiner_conteudo
+.conteudo_5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.conteiner_conteudo
+.conteudo_6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 
 
 
