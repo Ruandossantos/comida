@@ -13,7 +13,7 @@
 header{
     background-color: var(--color_fundo);
     padding: 1%;
-    max-height: 8vh;
+    max-height: 11vh;
     position: absolute;
     width: 100%;
     position: fixed;
@@ -573,23 +573,29 @@ position: relative;
 }
 
 .continer_menu_comidas_valores{
-    background-color: red;
+    background-color: darkgray;
     padding: 20px;
 
 }
 .continer_menu_comidas_valores
 .sub_continer_menu_comidas_valores{
-    background-color: blue;
-    
+    background-color: #ffffff;
     max-width: 800px;
     margin: 0 auto;
+    padding: 50px;
     
 }
 .continer_menu_comidas_valores
 .sub_continer_menu_comidas_valores
-
 .menu_cardapio_comida{
     text-align: center;
+}
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.menu_cardapio_comida span{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Rowdies', cursive;
+    font-size: 1rem;
 }
 
 .continer_menu_comidas_valores
@@ -597,10 +603,13 @@ position: relative;
 .menu_cardapio_comida
 nav
 ul{
+    font-family:'Geologica', sans-serif;
+    font-size: .8rem;
     display: flex;
     justify-content: center;
     text-align: center;
     list-style: none;
+    margin-top: 20px;
 }
 .continer_menu_comidas_valores
 .sub_continer_menu_comidas_valores
@@ -609,6 +618,30 @@ nav
 ul li{
     margin-top: 10px;
     margin-left: 30px;
+    position: relative;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.menu_cardapio_comida
+nav
+ul li::after{
+    content: "";
+    border:1px solid var(--color-logo);
+    top: 0px;
+    display: block;
+    z-index: 1;
+    inset: 0;
+    
+}
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.menu_cardapio_comida
+nav
+ul li:hover{
+    color: rgba(255, 0, 0, 0.685);
+    
 }
 
 .continer_menu_comidas_valores
@@ -617,8 +650,22 @@ ul li{
     margin-top: 15px;
     text-align: center;
 }
-
-
+.continer_menu_comidas_valores
+.sub_cardapio_acima_comida
+span{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Rowdies', cursive;
+    font-size: .8rem;
+}
+.continer_menu_comidas_valores
+.sub_cardapio_acima_comida
+h1{
+    font-family:'Geologica', sans-serif;
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* CONTAINER ESTILIZAÇÃO CARDS CARDAPIO MENU*/
 
 .continer_menu_comidas_valores
 .sub_continer_menu_comidas_valores
@@ -631,6 +678,8 @@ ul li{
 
 /*ESTILIZAÇÃO CARDS CARDAPIO MENU*/
 
+
+/*ESTILIZAÇÃO CARD 1*/
 .continer_menu_comidas_valores
 .sub_continer_menu_comidas_valores
 .conteiner_conteudo
@@ -640,6 +689,32 @@ ul li{
     justify-content: center;
     flex-direction: column;
 }
+
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.conteudo_1
+h1{
+    color: var(--color-logo);
+    font-family:'Geologica', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.conteudo_1
+span{
+    color: var(--color-logo);
+    font-family:'Geologica', sans-serif;
+}
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.conteudo_1
+p{
+    font-family:'Geologica', sans-serif;
+    color: rgb(122, 122, 122);
+}
+
+/*ESTILIZAÇÃO CARD 2*/
 .continer_menu_comidas_valores
 .sub_continer_menu_comidas_valores
 .conteiner_conteudo
@@ -651,6 +726,31 @@ ul li{
 }
 .continer_menu_comidas_valores
 .sub_continer_menu_comidas_valores
+.conteudo_2
+h1{
+    color: var(--color-logo);
+    font-family:'Geologica', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.conteudo_2
+p{
+    font-family:'Geologica', sans-serif;
+    color: darkgrey;
+}
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.conteudo_2
+span{
+    color: var(--color-logo);
+    font-family:'Geologica', sans-serif;
+}
+
+/*ESTILIZAÇÃO CARD 3*/
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
 .conteiner_conteudo
 .conteudo_3{
     display: flex;
@@ -658,7 +758,31 @@ ul li{
     justify-content: center;
     flex-direction: column;
 }
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.conteudo_3
+h1{
+    color: var(--color-logo);
+    font-family:'Geologica', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.conteudo_3
+p{
+    font-family:'Geologica', sans-serif;
+    color: darkgrey;
+}
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.conteudo_3
+span{
+    color: var(--color-logo);
+    font-family:'Geologica', sans-serif;
+}
 
+/*ESTILIZAÇÃO CARD 4*/
 .continer_menu_comidas_valores
 .sub_continer_menu_comidas_valores
 .conteiner_conteudo
@@ -668,7 +792,32 @@ ul li{
     justify-content: center;
     flex-direction: column;
 }
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.conteudo_4
+h1{
+    color: var(--color-logo);
+    font-family:'Geologica', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.conteudo_4
+p{
+    font-family:'Geologica', sans-serif;
+    color: darkgrey;
+}
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.conteudo_4
+span{
+    color: var(--color-logo);
+    font-family:'Geologica', sans-serif;
+}
 
+
+/*ESTILIZAÇÃO CARD 5*/
 .continer_menu_comidas_valores
 .sub_continer_menu_comidas_valores
 .conteiner_conteudo
@@ -680,6 +829,32 @@ ul li{
 }
 .continer_menu_comidas_valores
 .sub_continer_menu_comidas_valores
+.conteudo_5
+h1{
+    color: var(--color-logo);
+    font-family:'Geologica', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.conteudo_5
+p{
+    font-family:'Geologica', sans-serif;
+    color: darkgrey;
+}
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.conteudo_5
+span{
+    color: var(--color-logo);
+    font-family:'Geologica', sans-serif;
+}
+
+
+/*ESTILIZAÇÃO CARD 6*/
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
 .conteiner_conteudo
 .conteudo_6{
     display: flex;
@@ -687,6 +862,111 @@ ul li{
     justify-content: center;
     flex-direction: column;
 }
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.conteudo_6
+h1{
+    color: var(--color-logo);
+    font-family:'Geologica', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.conteudo_6
+p{
+    font-family:'Geologica', sans-serif;
+    color: darkgrey;
+}
+.continer_menu_comidas_valores
+.sub_continer_menu_comidas_valores
+.conteudo_6
+span{
+    color: var(--color-logo);
+    font-family:'Geologica', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    height: 95px;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Estilização footer*/
+
+.footer_container{
+display: flex;
+margin: 0 auto;
+background-color: rgb(221, 217, 217);
+align-items: center;
+justify-content: center;
+color: #fff;
+font-family:'Geologica', sans-serif;
+font-size: .7rem;
+max-width: 900px;
+}
+
+/*Estilização footer endereço*/
+.footer_container
+svg{
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+.footer_container
+.footer_endereco{
+    color: #000000;
+    margin-right: 40px;
+}
+
+
+/*Estilização reverva e numero*/
+
+
+.footer_container
+.footer_reverva{
+    color: #000000;
+    margin-right: 40px;
+    font-family:'Geologica', sans-serif;
+}
+.footer_container
+.footer_reverva h1{
+    font-size: 1rem;
+}
+
+.footer_container
+.footer_redes_sociais{
+    color: #000000;
+    margin-right: 40px;
+    font-family:'Geologica', sans-serif;
+    text-transform: uppercase;
+}
+
+.footer_container
+.footer_redes_sociais h1{
+    font-size: .8rem;
+}
+
+.footer_container
+.footer_redes_sociais svg{
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 15px;
+}
+
+
+
+
 
 
 
