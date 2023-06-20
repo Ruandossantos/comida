@@ -1,0 +1,17 @@
+@media screen and (max-width:880px){
+    
+    header
+    nav
+    .header_top{    
+        display: none;
+    }
+    .section_apresentação_1
+    .inter_section_apresentação_2
+    img{
+        display: none;
+    }
+    .inter_section_apresentação_1{
+        background-color: aqua;
+        margin-left: 20%;
+    }
+}

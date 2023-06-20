@@ -125,10 +125,7 @@ button:hover{
 }
 
 
-
 /*Estilização Section-01(Abaixo do Header)*/
-
-
 
 main
 .section_apresentação_1{
@@ -140,7 +137,6 @@ main
     align-items: center;
     background-image: linear-gradient(45deg, #000000f3, #000000f5), url(../img/menu/back_header.jpg);
 }
-
 
 
 /*LADO ESQUERDO(ONDE CONTÉM TEXTO E BUTÕES)*/
@@ -155,7 +151,7 @@ main
 main
 .section_apresentação_1
 .inter_section_apresentação_1 h1{
-    font-size: 2rem;
+    font-size: 150%;
     font-family: 'Playfair Display', serif;
     font-family: 'Rowdies', cursive;
     text-transform: uppercase;
