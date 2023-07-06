@@ -29,7 +29,10 @@ header{
     align-items: center;
     animation: ani_header_top 2s 1 ease-in-out;
 }
-
+header
+nav{
+    position: relative;
+}
 header
 nav
 .header_top
@@ -123,7 +126,32 @@ button:hover{
     transform: scale(1.1);
     background-color: var(--color-hover);
 }
+/*ESTILIZAÇÃO NAV_MENU*/
+header
+nav
+#container_menu{
+    position: absolute;
+    top: 0;
+    left: 98%;
+    display: none;
+}
 
+header
+nav
+#container_menu
+#div_menu1,
+#div_menu2,
+#div_menu3{
+    height: 2px;
+    width: 17px;
+    background-color: #000000;
+    margin: 5px;
+}
+header
+nav
+#container_menu
+#div_menu1{
+}
 
 /*Estilização Section-01(Abaixo do Header)*/
 
